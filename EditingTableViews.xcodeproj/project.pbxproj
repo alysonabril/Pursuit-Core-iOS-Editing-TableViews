@@ -37,6 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6BF910A2306EEA4003686B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F80192305F3DE00CB87B0 /* Assets.xcassets */,
+				CD8F80122305F3D300CB87B0 /* AppDelegate.swift */,
+				CD8F801B2305F3DE00CB87B0 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		C6BF910B2306EEAE003686B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F80162305F3D300CB87B0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6BF910C2306EEB5003686B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F80242305F41A00CB87B0 /* ShoppingItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6BF910D2306EEBA003686B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F80142305F3D300CB87B0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CD8F80062305F3D200CB87B0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +90,10 @@
 		CD8F80112305F3D300CB87B0 /* EditingTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				CD8F80122305F3D300CB87B0 /* AppDelegate.swift */,
-				CD8F80142305F3D300CB87B0 /* ViewController.swift */,
-				CD8F80242305F41A00CB87B0 /* ShoppingItem.swift */,
-				CD8F80162305F3D300CB87B0 /* Main.storyboard */,
-				CD8F80192305F3DE00CB87B0 /* Assets.xcassets */,
-				CD8F801B2305F3DE00CB87B0 /* LaunchScreen.storyboard */,
+				C6BF910D2306EEBA003686B9 /* Controller */,
+				C6BF910C2306EEB5003686B9 /* Model */,
+				C6BF910B2306EEAE003686B9 /* View */,
+				C6BF910A2306EEA4003686B9 /* Support Files */,
 				CD8F801E2305F3DE00CB87B0 /* Info.plist */,
 			);
 			path = EditingTableViews;
